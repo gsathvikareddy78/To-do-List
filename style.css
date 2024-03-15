@@ -108,74 +108,15 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
-
-@media only screen and (max-width: 768px) {
-    .container {
-        padding: 20px;
-    }
-
-    .todo-app {
-        padding: 30px;
-    }
-
-    .row {
-        padding-left: 15px;
-        margin-bottom: 20px;
-    }
-
-    input {
-        padding: 8px;
-    }
-
-    button {
-        padding: 12px 30px;
-        font-size: 14px;
+@media (max-width: 768px) {
+    input[type="text"] {
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 480px) {
-    .container {
-        padding: 10px;
-    }
-
-    .todo-app {
-        padding: 20px;
-    }
-
-    .row {
-        padding-left: 10px;
-        margin-bottom: 15px;
-    }
-
-    input {
-        padding: 6px;
-    }
-
+/* Media query for button */
+@media (max-width: 768px) {
     button {
-        padding: 10px 24px;
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 310px) {
-    .container {
-        padding: 8px;
-    }
-
-    .todo-app {
-        padding: 18px;
-    }
-
-    .row {
-        padding-left: 8px;
-        margin-bottom: 13px;
-    }
-
-    input {
-        padding: 5px;
-    }
-
-    button {
-        padding: 8px 20px;
-        font-size: 10px;
+        padding: 12px 40px;
     }
 }
