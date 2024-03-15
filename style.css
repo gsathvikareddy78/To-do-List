@@ -112,11 +112,7 @@ ul li span:hover{
     input[type="text"] {
         width: 100%;
     }
-}
-
-/* Media query for button */
-@media (max-width: 768px) {
-    button {
+     button {
         padding: 12px 40px;
     }
 }
