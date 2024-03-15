@@ -121,3 +121,16 @@ ul li span:hover{
         font-size: 14px;
     }
 }
+@media only screen and (max-width:280px){
+    .todo-app {
+        max-width: 100%;
+    }
+
+    .row {
+        padding-left: 10px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
